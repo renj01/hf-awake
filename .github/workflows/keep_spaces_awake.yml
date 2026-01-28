@@ -11,10 +11,10 @@ jobs:
     
     steps:
       - name: Send API request to Hospital Space
-        run: curl -X GET "https://tunixlabs-hospital.hf.space/submit-form"
+        run: curl -X GET "https://fsbxcm-gemini2api.hf.space/"
         
       - name: Send API request to Facebook Sentiment Analysis Space
-        run: curl -X GET "https://tunixlabs-Facebook-sentiment-analisis.hf.space/scrape-posts"
+        run: curl -X GET "https://fsbxcm-grok2api.hf.space/login"
         
       - name: Send API request to Hotel Space
-        run: curl -X GET "https://tunixlabs-hotel.hf.space/submit-form"
+        run: curl -X GET "https://fsbxcm-oneapi.hf.space/"
